@@ -26,6 +26,11 @@ __pycache__/
 .venv/
 venv/
 
+# SSH keys (never commit)
+.ssh/
+id_rsa*
+id_ed25519*
+
 # Env / secrets
 .env
 .env.*
